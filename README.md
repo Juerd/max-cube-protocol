@@ -3,31 +3,31 @@ max-cube-protocol
 
 A attempt to write down the protocol of the eQ3 / ELV MAX! Heating system
 
-This protocol is implemented in various opensource projects.
+This protocol is implemented in various opensource projects. To give an indication of the completeness of the implementation, a list of letters (Cube commands and messages), hexadecimal numbers (device radio commands), and more letters (Cube UDP commands) is provided. A project with a very short list might be an abandoned stub or written for a very specific use-case.
 
-* [eq3-max](https://github.com/Juerd/eq3-max) (Perl)
-* [FHEM](http://fhem.de/) (Perl)
-* [MAX_Boiler_Control](https://github.com/stephenmhall/MAX_Boiler_Control) (Python)
-* [max-control](https://github.com/georg90/max-control) (NodeJS)
-* [MAXCPP](https://github.com/KnuthLohse/MAXCPP) (C)
-* [maxcube](https://github.com/ivesdebruycker/maxcube) (Javascript)
+* [eq3-max](https://github.com/Juerd/eq3-max) (Perl) `ACLmMnNqsSt` 20, 22, 40, 82 `I`
+* [FHEM](http://fhem.de/) (Perl) `aAcCHlLMnNrsStvx` 10, 11, 12, 20, 21, 22, 23, 30, 40, 42, 82, F0, F1
+* [MAX_Boiler_Control](https://github.com/stephenmhall/MAX_Boiler_Control) (Python) `CHLM`
+* [max-control](https://github.com/georg90/max-control) (NodeJS) `CHlLMsS` 40
+* [MAXCPP](https://github.com/KnuthLohse/MAXCPP) (C) `CH`
+* [maxcube](https://github.com/ivesdebruycker/maxcube) (Javascript) `ACHlLmMsS` 40
 	* [mqtt-maxcube](https://github.com/leachj/mqtt-maxcube)
 	* [maxcube-cli](https://github.com/ivesdebruycker/maxcube-cli)
-* [maxcube](https://github.com/aleszoulek/maxcube) (Python)
-* [Max::Cube](https://github.com/yoyostile/max-cube-ruby) (Ruby)
-* [Max::Cube](https://github.com/joconcepts/max-cube) (Ruby)
-* [MAX-cube-ctl](https://github.com/pacostiro/MAX-cube-ctl) (C)
-* [MAXDebug](https://github.com/bietiekay/hacs/tree/master/tools/MAXDebug) (CS)
-* [MaxManager](https://github.com/ababilone/maxmanager) (CS)
-* [MAXSharp](https://github.com/bietiekay/MAXSharp/tree/master/MAXSharp) (C#)
-* [maxwindownotify](https://github.com/yfauser/maxwindownotify) (Python)
-* [node-max](https://github.com/sebbo2002/node-max)
-* [node-red-contrib-maxcube](https://github.com/ivesdebruycker/node-red-contrib-maxcube) (Javascript)
-* [Openhab](http://openhab.org/)
-	* [MAX! Binding](https://github.com/openhab/openhab2/tree/master/addons/binding/org.openhab.binding.max)
-	* [maxcul binding](https://github.com/openhab/openhab/tree/master/bundles/binding/org.openhab.binding.maxcul)
-* [pymax](https://github.com/ercpe/pymax) (Python)
-* [thermeq3](https://github.com/autopower/thermeq3) (Arduino Yún)
+	* [node-red-contrib-maxcube](https://github.com/ivesdebruycker/node-red-contrib-maxcube)
+* [maxcube](https://github.com/aleszoulek/maxcube) (Python) `CHM`
+* [Max::Cube](https://github.com/yoyostile/max-cube-ruby) (Ruby) `ClLq` - `hIN`
+* [Max::Cube](https://github.com/joconcepts/max-cube) (Ruby) `H`
+* [MAX-cube-ctl](https://github.com/pacostiro/MAX-cube-ctl) (C) `CHlLqs` 10, 11, 40
+* [MAXDebug](https://github.com/bietiekay/hacs/tree/master/tools/MAXDebug) (CS) `HLM`
+* [MaxManager](https://github.com/ababilone/maxmanager) (CS) `aACfFHlLMnNqsSu` 40 `I`
+* [MAXSharp](https://github.com/bietiekay/MAXSharp/tree/master/MAXSharp) (C#) `HLM`
+* [maxwindownotify](https://github.com/yfauser/maxwindownotify) (Python) `LM` - `I`
+* [node-max](https://github.com/sebbo2002/node-max) (Javascript) `CHlL` - `I`
+* [Openhab](http://openhab.org/) (Java)
+	* [MAX! Binding](https://github.com/openhab/openhab2/tree/master/addons/binding/org.openhab.binding.max) `aAcCfFHlLmMnNqsStz` 11, 22, 23, 40 `chINR`
+	* [maxcul binding](https://github.com/openhab/openhab/tree/master/bundles/binding/org.openhab.binding.maxcul) 00, 01, 02, 03, 10, 11, 12, 20, 21, 22, 23, 30, 40, 42, 43, 44, 50, 60, 70, 82, F0, F1
+* [pymax](https://github.com/ercpe/pymax) (Python) `CfFHLMqsS` 10, 11, 12, 40 `IN`
+* [thermeq3](https://github.com/autopower/thermeq3) (Arduino Yún) `CHLM`
 
 General description on how to connect to the cube can be found in [protocol](protocol.md)
 
