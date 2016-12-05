@@ -18,8 +18,8 @@ This protocol is implemented in various opensource projects. To give an indicati
 * [Max::Cube](https://github.com/yoyostile/max-cube-ruby) (Ruby) `ClLq` - `hIN`
 * [Max::Cube](https://github.com/joconcepts/max-cube) (Ruby) `H`
 * [MAX-cube-ctl](https://github.com/pacostiro/MAX-cube-ctl) (C) `CHlLqs` 10, 11, 40
-* [MAXDebug](https://github.com/bietiekay/hacs/tree/master/tools/MAXDebug) (CS) `HLM`
-* [MaxManager](https://github.com/ababilone/maxmanager) (CS) `aACfFHlLMnNqsSu` 40 `I`
+* [MAXDebug](https://github.com/bietiekay/hacs/tree/master/tools/MAXDebug) (C#) `HLM`
+* [MaxManager](https://github.com/ababilone/maxmanager) (C#) `aACfFHlLMnNqsSu` 40 `I`
 * [MAXSharp](https://github.com/bietiekay/MAXSharp/tree/master/MAXSharp) (C#) `HLM`
 * [maxwindownotify](https://github.com/yfauser/maxwindownotify) (Python) `LM` - `I`
 * [node-max](https://github.com/sebbo2002/node-max) (Javascript) `CHlL` - `I`
