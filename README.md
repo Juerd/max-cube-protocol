@@ -14,7 +14,7 @@ Legend:
 * _has_ = full home automation server (multiple interfaces, stats, etc...)
 
 Projects:
-* [eq3-max](https://github.com/Juerd/eq3-max) (Perl _lib cli stats switch_) `ACLmMnNqsSt` 20, 22, 40, 82 `I`
+* [eq3-max](https://github.com/Juerd/eq3-max) (Perl _lib cli stats switch_) `ACLmMnNqsSt` 20, 22, 40, 82 `IR`
 * [FHEM](http://fhem.de/) (Perl _has_) `aAcCHlLMnNrsStvx` 10, 11, 12, 20, 21, 22, 23, 30, 40, 42, 82, F0, F1
 * [MAX_Boiler_Control](https://github.com/stephenmhall/MAX_Boiler_Control) (Python _switch_) `CHLM`
 * [max-control](https://github.com/georg90/max-control) (NodeJS _lib_) `CHlLMsS` 40
